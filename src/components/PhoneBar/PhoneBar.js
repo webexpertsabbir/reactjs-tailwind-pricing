@@ -31,6 +31,9 @@ const PhoneBar = () => {
     return (
         <BarChart width={400} height={500} data={phones}>
           <Bar dataKey="price" fill="#8884d8" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
         </BarChart>
     );
 };
